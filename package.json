@@ -1,0 +1,22 @@
+{
+  "name": "gcloud-marta",
+  "version": "0.0.1",
+  "description": "NodeJS API for GT Big Data Club database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gt-big-data/gcloud-marta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gt-big-data/gcloud-marta/issues"
+  },
+  "homepage": "https://github.com/gt-big-data/gcloud-marta#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
