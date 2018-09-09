@@ -1,12 +1,3 @@
-/**
- * HTTP Cloud Function.
- *
- * @param {Object} req Cloud Function request context.
- *                     More info: https://expressjs.com/en/api.html#req
- * @param {Object} res Cloud Function response context.
- *                     More info: https://expressjs.com/en/api.html#res
- */
+const hello = require('./hello');
 
-exports.helloHttp = (req, res) => {
-    res.send(`Hello ${req.body.name || 'World'}!`);
-};
+exports.helloHttp = hello.helloWorld;
