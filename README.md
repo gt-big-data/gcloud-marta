@@ -118,7 +118,7 @@ This table specifies dates where the normal operating schedule (specified in [Ca
 * date
   * A string specifying the date where service is excepted.
 * exception_type
-  * An integer, either one or zero, where
+  * An integer, either one or two, where
     * 1 means that service is added for the specified date, and
     * 2 means that service is removed for the specified date.
 
