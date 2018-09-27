@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: marta
+Version: 0.0.0
+Summary: Python library for accessing MARTA real-time API
+Home-page: http://www.itsmarta.com/app-developer-resources.aspx
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pytest-runner
+Requires-Dist: requests
+Requires-Dist: requests-cache
+
+UNKNOWN
+
+
