@@ -18,6 +18,4 @@ __pycache__/
 
 # Unnecessary files
 db/
-*.md
-.travis.yml
-client-secret.json.enc
+**/*.md

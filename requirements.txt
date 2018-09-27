@@ -11,7 +11,7 @@ idna==2.7
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-git+https://github.com/patricksanders/marta-python.git@a13282fe917d455294210a87ce63f0a811001768#egg=marta
+git+https://github.com/patricksanders/marta-python.git@a13282fe917d455294210a87ce63f0a811001768
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
 pytest-runner==4.2
