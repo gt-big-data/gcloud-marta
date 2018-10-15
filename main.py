@@ -14,18 +14,13 @@
 
 # [START gae_python37_app]
 from flask import Flask
+from endpoints.example import hello
 
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
 # called `app` in `main.py`.
 app = Flask(__name__)
-
-
-@app.route('/')
-def hello():
-    """Return a friendly HTTP greeting."""
-    return 'Hello World!'
-
+app.register_blueprint(hello)
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
