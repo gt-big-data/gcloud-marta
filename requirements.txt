@@ -17,7 +17,7 @@ pyasn1-modules==0.2.2
 pytest-runner==4.2
 requests==2.19.1
 requests-cache==0.4.13
-rsa==4.0
+rsa==4.7
 six==1.11.0
 uritemplate==3.0.0
 urllib3==1.23
