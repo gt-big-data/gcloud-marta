@@ -1,6 +1,6 @@
 # gcloud-marta
 
-This is the home of the GT Big Data Club API for interacting with [Marta GTFS data](google_transit.zip). It's a work in progress, and this README will be updated as we zoom through the semester and make progress!
+This is the home of the GT Big Data Club API for interacting with [Marta GTFS data](google_transit.zip).
 
 ## Table of Contents
 
@@ -226,7 +226,3 @@ This dataset contains information about all the trips made by vehicles across al
   * An ID for a particular vehicle, i.e. all trips with the same block ID use the same bus or train
 * shape_id
   * References a [shape](#shapes) that can be drawn on a map to represent the route this trip takes.
-
-### Manipulating the Data
-
-We'll go over this during the meeting today :heart:
